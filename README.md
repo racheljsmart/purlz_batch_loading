@@ -14,7 +14,20 @@ To use this, make sure you have all of this installed and/or running:
 
 ## Structuring your XML data
 
-In this repo, there is an XML file named, ''. It contains 
+The file 'purl_batch_test1.xml' in this repo, is the xml document I use to run my own tests to create simple PURLs. Resolving a simple PURL will always return an HTTP response code of 302. There are several different types of PURLs that can be created. The data can be modified to another users needs.
+
+To structure your XML document to create multiple 302 PURLs, your document must contain the following syntax:
+
+
+`<purl id="/domain/path/<PURL id>" type="302">`
+
+`<maintainers> <uid>admin</uid> </maintainers>`
+
+To add multiple maintainers, stack the uid child elements.
+```
+<uid>admin</uid>
+<uid>rachel</uid>
+```
 
 ## Sending POST Requests
 
