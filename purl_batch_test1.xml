@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+ <purls> 
+	<purl id="/repository/test/FSU_test1" type="302"> 
+		<maintainers> 
+			<uid>admin</uid> 
+		</maintainers> 
+		<target url="https://diginole.lib.fsu.edu/islandora/object/fsu:535610"/>
+	</purl> 
+	<purl id="/repository/test/FSU_test2" type="302">
+		<maintainers>
+			<uid>admin</uid> 
+		</maintainers>
+		<target url="https://diginole.lib.fsu.edu/islandora/object/fsu:503074"/> 
+	</purl>  
+	<purl id="/repository/test/FSU_test3" type="302">
+		<maintainers> 
+			<uid>admin</uid> 
+		</maintainers> 
+		<target url="https://diginole.lib.fsu.edu/islandora/object/fsu:503082"/> 
+	</purl> 
+</purls>
