@@ -41,7 +41,7 @@ The target url is the location you would like the PURL to resolve to.
 
 There are several different ways to make HTTP POST requests to the PURLZ server. I chose to write a short python script to 1) login to the PURLZ test server, 2) send an XML file to the PURLZ server as a POST request. See, 'batch_purls_creation.py'.
 
-To Run: I recommend placing the python file in the same folder as the xml file you are sending as a POST request. Open the terminal/command line/or python shell and run the file.
+To Run: I recommend placing the python file in the same folder as the xml file you are sending as a POST request. Open the terminal/command line/or python shell and run the python script.
 
 Make changes to the file:
 
