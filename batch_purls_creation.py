@@ -6,6 +6,7 @@ import requests
 # Login information being passed
 payload = {'id':'admin', 'passwd':'password'}
 
+# Name/path of the xml document containing purls data
 xml_file = 'purl_batch_test1.xml'
 
 url_login = 'http://localhost:8080/admin/login/login-submit.bsh'
