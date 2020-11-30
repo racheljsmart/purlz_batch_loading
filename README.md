@@ -18,9 +18,10 @@ The file 'purl_batch_test1.xml' in this repo, is the xml document I use to run m
 
 To structure your XML document to create multiple 302 PURLs, your document must contain the following syntax:
 
-
+The "id=" is the PURL you are trying to create. You must include a pre-existing PURL domain (ex, "/repository/test") and the new PURL id (ex, "FSU_test1"). "Type=" indicates the type of PURL you are registering.
 `<purl id="/domain/path/<PURL id>" type="302">`
 
+The maintainer is who is responsible for the PURL. They should also have access to the PURL domain.
 `<maintainers> <uid>admin</uid> </maintainers>`
 
 To add multiple maintainers, stack the uid child elements.
@@ -28,6 +29,10 @@ To add multiple maintainers, stack the uid child elements.
 <uid>admin</uid>
 <uid>rachel</uid>
 ```
+
+The target url is the location you would like the PURL to resolve to.
+`<target url="https://server.edu/repository/object/namespace:numbersnumbers"/>`
+
 
 ## Sending POST Requests
 
